@@ -18,6 +18,7 @@ typedef enum {
 
 @property (weak, nonatomic) UIScrollView *scrollView;
 @property (assign, nonatomic) GTScrollNavigationBarState scrollState;
+@property (assign, nonatomic) CGFloat contentInsetOffsetY;
 
 /**
  * @deprecated use resetToDefaultPositionWithAnimation: instead
